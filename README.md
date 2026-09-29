@@ -82,6 +82,24 @@ This repository uses **GNU Stow** to manage dotfiles as symlinks pointing to `$H
 
 ---
 
+### Demos
+
+<details>
+  <summary>📸 <b>Clique aqui para ver mais capturas da interface</b></summary>
+  <br>
+
+  ### Home
+  ![Home](.github/assets/hero.png)
+
+  ### Rofi Launcher
+  ![Rofi Launcher](.github/assets/rofi.png)
+
+  ### Coding Workspace
+  ![SwayNC](.github/assets/coding.png)
+</details>
+
+---
+
 ## License
 
 MIT License
