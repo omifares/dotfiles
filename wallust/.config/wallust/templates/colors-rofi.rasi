@@ -1,0 +1,19 @@
+
+* {
+    font: "JetBrainsMono Nerd Font 10";
+    foreground: {{foreground}};
+    background: {{background}};
+    background-color: transparent;
+    urgent-background: {{color4}};
+    color: {{color14}};
+    prompt: {{color3}};
+    entry: {{color5}};
+    selected-background: rgba({{color2 | rgb}}, 60%);
+    selected-active-background: rgba({{color8 | rgb}}, 60%);
+    separatorcolor: {{color7}};
+    bordercolor: @selected-background;
+}
+
+#mainbox {
+    background-color: rgba({{background | rgb}}, 60%);
+}

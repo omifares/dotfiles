@@ -1,0 +1,36 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "auto",
+	"padding": {
+		"top": 1
+	}
+    },
+    "modules": [
+        "title",
+        "separator",
+        "os",
+        "uptime",
+        "memory",
+	"localip",
+	{
+            "type": "command",
+            "key": "Public IP",
+            "text": "cat /tmp/public_ip 2>/dev/null || echo 'Buscando...'"
+   	},
+	"shell",
+	"WM",
+	"custom",
+        {
+            "type": "command",
+            "key": "Updates avaiable",
+            "text": "cat /tmp/packages_upgradable" 
+        },
+        {
+            "type": "command",
+            "key": "Last logon",
+	    "shell": "bash",
+            "text": "last -n 1 | head -n 1 | awk '{print $1 \" at \" $4, $5, $6}'"
+        }
+    ]
+}

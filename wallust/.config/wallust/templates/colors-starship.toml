@@ -1,0 +1,14 @@
+palette = 'wallust_dark'
+
+[palettes.wallust_dark]
+color_fg0 = '{{color15}}'
+color_fg1 = '{{color0}}'
+color_bg1 = '{{color1}}'
+color_bg3 = '{{color2}}'
+color_blue = '{{color3}}'
+color_aqua = '{{color4}}'
+color_green = '{{color5}}'
+color_orange = '{{color5}}'
+color_purple = '{{color7}}'
+color_red = '{{color7}}'
+color_yellow = '{{color9}}'

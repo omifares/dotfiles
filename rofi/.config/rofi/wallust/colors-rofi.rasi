@@ -1,0 +1,19 @@
+
+* {
+    font: "JetBrainsMono Nerd Font 10";
+    foreground: #EBEADA;
+    background: #0C1016;
+    background-color: transparent;
+    urgent-background: #86886E;
+    color: #C6C494;
+    prompt: #787D6C;
+    entry: #94936F;
+    selected-background: rgba(106,114,107, 60%);
+    selected-active-background: rgba(153,152,135, 60%);
+    separatorcolor: #DAD9C1;
+    bordercolor: @selected-background;
+}
+
+#mainbox {
+    background-color: rgba(12,16,22, 60%);
+}
