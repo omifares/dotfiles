@@ -85,7 +85,7 @@ This repository uses **GNU Stow** to manage dotfiles as symlinks pointing to `$H
 ### Demos
 
 <details>
-  <summary>📸 <b>Clique aqui para ver mais capturas da interface</b></summary>
+  <summary>📸 <b>Click to show screenshots</b></summary>
   <br>
 
   ### Home
